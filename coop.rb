@@ -2,9 +2,9 @@ class Coop < Formula
   desc "The official homebrew formula for STJEREM/coop"
   homepage "https://github.com/STJEREM/coop"
   head "https://github.com/STJEREM/coop.git", :branch => 'development'
-  url 'https://github.com/STJEREM/coop/archive/0.0.3.zip'
-  sha256 '1ffa2b1155e6f1ad03d48e3a8ea72b2cac477efaa76a701104717bca2d965436'
-  version '0.0.3'
+  url 'https://github.com/STJEREM/coop/archive/0.0.5.zip'
+  sha256 '0d1bf76b98fedb098de9ac79b04d9563c04f572ed9060f447e34579fd9e3e04c'
+  version '0.0.5'
 
   bottle :unneeded
 
