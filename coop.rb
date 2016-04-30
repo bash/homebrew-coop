@@ -1,5 +1,5 @@
 class Coop < Formula
-  desc "The official brew formula for STJEREM/coop"
+  desc "The official homebrew formula for STJEREM/coop"
   homepage "https://github.com/STJEREM/coop"
   head "https://github.com/STJEREM/coop.git", :branch => 'development'
   
