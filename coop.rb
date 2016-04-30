@@ -11,7 +11,7 @@ class Coop < Formula
   depends_on 'python3'
 
   def install
-    system "python3", "-m", "pip", "install", "-r", "client/requirements.txt"
-    bin.install "client/coop"
+    system "python3", "-m", "pip", "install", "-r", "client/python/requirements.txt"
+    bin.install "client/python/coop"
   end
 end
