@@ -3,13 +3,13 @@ class CoopRust < Formula
   homepage 'https://github.com/bash/coop-rust'
   head 'https://github.com/bash/coop-rust.git', :branch => 'development'
   url 'https://github.com/bash/coop-rust/releases/download/v0.0.1/coop-x86_64-apple-darwin.zip'
-  sha256 'eb5df11bc85671657e2caa8ec501d4d29893640020ee012f7fb0d072e8adcfa2'
+  sha256 '41efca1d0273487face8077b76baab3560cea44df420fdece55be7fbbb1b1936'
   version '0.0.1'
   conflicts_with 'coop'
 
   bottle :unneeded
 
   def install
-    bin.install 'coop-x86_64-apple-darwin'
+    bin.install 'coop'
   end
 end
